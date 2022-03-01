@@ -1,16 +1,16 @@
-var i = 50;
-var green = document.getElementById("green");
-var red = document.getElementById("red");
-var white = document.getElementById("white");
-var blue = document.getElementById("blue");
-var yellow = document.getElementById("yellow");
+let i = 50;
+let green = document.getElementById("green");
+let red = document.getElementById("red");
+let white = document.getElementById("white");
+let blue = document.getElementById("blue");
+let yellow = document.getElementById("yellow");
 
 function progress() {
   if (i == 50) {
     i = 1;
 
-    var width = 50;
-    var id = setInterval(frame, 50);
+    let width = 50;
+    let id = setInterval(frame, 50);
     function frame() {
       if (width >= 100) {
         clearInterval(id);
